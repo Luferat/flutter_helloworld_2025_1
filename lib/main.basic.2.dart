@@ -152,10 +152,11 @@ class ModelPageSl extends StatelessWidget {
         centerTitle: true,
       ),
       // Corpo da página com um texto indicativo.
-      body: const Text(
-        'Página Modelo Stateful',
+      body: const Center( child: Text(
+        'Página Modelo Stateless',
       ), // Nota: O texto aqui pode estar incorreto, pois a página é Stateless.
       // Rodapé da página.
+      ),
       bottomNavigationBar: const Text('Rodapé da págna modelo!'),
     );
   }
